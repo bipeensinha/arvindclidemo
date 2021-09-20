@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id  ami-0c2d06d50ce30b442 --count 2 --instance-type t2.micro --key-name arvind  --security-groups carriersg
